@@ -100,6 +100,9 @@ async function getInputValue(){
     trueValue(value);
     createText("We are the <span class='blue'>web dev team of GDSC GNITS </span> and we are so excited to embark on this new journey.")
     createText("We aim to learn and enjoy together as the official web developers of this wonderful club and create a lot of new events for you.")
+                                                         
+
+
   }
  else if(value === "about keerthana pravallika"){
     trueValue(value);
@@ -156,6 +159,13 @@ else if(value === "about meghana"){
             createText("Hello I am Nikitha. I am the web dev team Coordinator.")
             
             }
+            else if(value === "about rucha"){
+
+              trueValue(value);
+              
+              createText("Hello I am Rucha. I am the web dev team Coordinator.")
+              
+              }
         
     
   else if(value === "contact keerthana pravallika"){
