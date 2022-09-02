@@ -24,11 +24,11 @@ async function open_terminal(){
   createText("Welcome to GDSC GNITS Web Dev Team");
   await delay(700);
   createText("Starting the server...");
-  await delay(1000);
+  await delay(800);
   createText("Creating new user...");
   await delay(800);
-  createText("Enter all to see list of all commands");
-  createText("Warning: Commands are case sensitive and are in lower case");
+  createText("Enter <span class='blue'>all</span> to see list of all commands");
+  createText("<span style='color:red'>Warning:</span> Commands are case sensitive and are in lower case");
  
   //createCode("about me", "Who am i and what do i do.");
   //createCode("all", "See all commands.");
@@ -80,6 +80,7 @@ async function getInputValue(){
     createCode("contact name", "Replace name with any members name to find all social links of member");
     createCode("join gdsc", "Links to GDSC GNITS official handles");
     createCode("learn", "Recommended Links to learn Web Development");
+    createCode("see cool art", "Self explanatory. For the Computer Geeks");
     createCode("clear", "Clean the terminal.");
     
   }
@@ -100,7 +101,8 @@ async function getInputValue(){
     trueValue(value);
     createText("We are the <span class='blue'>web dev team of GDSC GNITS </span> and we are so excited to embark on this new journey.")
     createText("We aim to learn and enjoy together as the official web developers of this wonderful club and create a lot of new events for you.")
-                                                         
+  
+
 
 
   }
@@ -251,6 +253,35 @@ else if(value === "learn"){
     document.querySelectorAll("p").forEach(e => e.parentNode.removeChild(e));
     document.querySelectorAll("section").forEach(e => e.parentNode.removeChild(e));
   }
+  else if(value === "see cool art")
+  {
+    
+createText("<h6><pre>               dP                                          dP                dP                      </pre></h6>")
+createText("<h6><pre>               88                                          88                88                      </pre></h6>")
+createText("<h6><pre>.d8888b. .d888b88 .d8888b. .d8888b.    dP  dP  dP .d8888b. 88d888b.    .d888b88 .d8888b. dP   .dP    </pre></h6>")
+createText("<h6><pre>88   `88 88   `88 Y8ooooo. 88   `88    88  88  88 88ooood8 88   `88    88   `88 88ooood8 88   d8    </pre></h6>")
+createText("<h6><pre>88.  .88 88.  .88       88 88.  ...    88.88b.88' 88.  ... 88.  .88    88.  .88 88.  ... 88 .88'     </pre></h6>")
+createText("<h6><pre>`8888P88 `88888P8 `88888P' `88888P'    8888P Y8P  `88888P' 88Y8888'    `88888P8 `88888P' 8888P'      </pre></h6>")
+createText("<h6><pre>     .88                                                                                             </pre></h6>")
+createText("<h6><pre> d8888P                                                                                              </pre></h6>")
+
+
+
+                                                                                                                            
+createText("<h6><pre>                                   88  88                               88                   ad88                            </pre></h6>")
+createText("<h6><pre>                                   88  oo                               oo                  d8                              </pre></h6>")
+createText("<h6><pre>                                   88                                                       88                               </pre></h6>")
+createText("<h6><pre>  ,adPPYba,   ,adPPYba,    ,adPPYb,88  88  8b,dPPYba,    ,adPPYb,d8     88  ,adPPYba,     MM88MMM  88       88  8b,dPPYba,   </pre></h6>")
+createText("<h6><pre> a8      88  a8       8a  a8     `Y88  88  88P    ` 8a  a8     `Y88     88  I8[    88      88      88       88  88P    ` 8a  </pre></h6>")
+createText("<h6><pre> 8b          8b       d8  8b       88  88  88       88  8b       88     88   ` Y8ba,        88     88       88  88       88  </pre></h6>")
+createText("<h6><pre>  8a,   ,aa   8a,   ,a8    8a,   ,d88  88  88       88   8a,   ,d88     88  aa    ]8I       88      8a,   ,a88  88       88  </pre></h6>")
+createText("<h6><pre>  ` Ybbd8     ` YbbdP      ` 8bbdP Y8  88  88       88   ` YbbdP Y8     88  ` YbbdP         88      ` YbbdP Y8  88       88  </pre></h6>")
+createText("<h6><pre>                                                         aa,    ,88                                                          </pre></h6>")
+createText("<h6><pre>                                                           Y8bbdP                                                            </pre></h6>")
+
+
+  }
+
   else{
     falseValue(value);
     createText(`command not found: ${value}`)
