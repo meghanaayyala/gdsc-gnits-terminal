@@ -85,15 +85,23 @@ async function getInputValue(){
   }
   else if(value === "team"){
     trueValue(value);
-    createText("<span class='blue'>Lead: </span>keerthana pravallika")
-    createText("<span class='blue'>Co-Lead: </span>meghana ayyala somayajula")
+    createText("Use the name mentioned in brakets for accessing details about team members.")
+    createText("<span class='blue'>Lead: </span>Keerthana Pravallika Samudrala (keerthana pravallika)")
+    createText("<span class='blue'>Co-Lead: </span>Meghana Ayyala Somayajula (meghana)")
+    createText("<span class='blue'>Coordinator: </span>Kacham Satwika (satwika)")
+    createText("<span class='blue'>Member: </span>Nishitha Makam (nishitha)")
+    createText("<span class='blue'>Coordinator: </span>Vaishnavi Vangaveti (vaishnavi vangaveeti)")
+    createText("<span class='blue'>Coordinator: </span>Vaishnavi Jilla (vaishnavi jilla)")
+    createText("<span class='blue'>Coordinator: </span>Rucha (rucha)")
+    createText("<span class='blue'>Coordinator: </span>Nikitha (nikitha)")
+    //createText("<span class='blue'>Position: </span>name")
   }
   else if(value === "about"){
     trueValue(value);
     createText("We are the <span class='blue'>web dev team of GDSC GNITS </span> and we are so excited to embark on this new journey.")
     createText("We aim to learn and enjoy together as the official web developers of this wonderful club and create a lot of new events for you.")
   }
- else if(value === "about keerthana"){
+ else if(value === "about keerthana pravallika"){
     trueValue(value);
     createText("Hello I am Keerthana. I am the web dev team lead. Click to find a few of my best projects.")
     createText("<a href='https://github.com/KeerthanaPravallika/Travel-Pool' target='_blank'><span class='blue'>Travel Pool</span></a>")
@@ -108,7 +116,49 @@ else if(value === "about meghana"){
     
   }
   
-  else if(value === "contact keerthana"){
+  else if(value === "about satwika"){
+
+    trueValue(value);
+    
+    createText("Hello I am Satwika. I am the web dev team co-ordinator. Click to find a few of my best projects.")
+    
+    createText("<a href='https://codesup-component-library.netlify.app/’><span class='blue'>Component Library</span></a>")
+    
+    //createText("<a href='https://github.com/meghanaayyala/QCSimulator' target='_blank'><span class='blue'>QCSimulator++</span></a>")
+    
+    }
+    else if(value === "about nishitha"){
+
+      trueValue(value);
+      
+      createText("Hello I am Nishitha Makam. I am the web dev team Member.I am a self-motivated and highly passionate Learner.Looking forward to learning many more with Gdsc.")
+      
+      }
+  
+      else if(value === "about vaishnavi vangaveeti"){
+
+        trueValue(value);
+        
+        createText("Hello I am Vaishnavi Vangaveti. I am the web dev team Coordinator.")
+        
+        }
+        else if(value === "about vaishnavi jilla"){
+
+          trueValue(value);
+          
+          createText("Hello I am Vaishnavi Jilla. I am the web dev team Coordinator.")
+          
+          }
+          else if(value === "about nikitha"){
+
+            trueValue(value);
+            
+            createText("Hello I am Nikitha. I am the web dev team Coordinator.")
+            
+            }
+        
+    
+  else if(value === "contact keerthana pravallika"){
     trueValue(value);
     createText("<a href='https://github.com/KeerthanaPravallika' target='_blank'><i class='fab fa-github white'></i> @keerthanapravallika</a>")
     createText("<a href='https://www.linkedin.com/in/keerthana-pravallika-samudrala' target='_blank'><i class='fab fa-linkedin-in white'></i> Keerthana Pravallika Samudrala</a>")
@@ -119,6 +169,56 @@ else if(value === "contact meghana"){
     createText("<a href='https://github.com/meghanaayyala' target='_blank'><i class='fab fa-github white'></i> @meghanaayyala</a>")
     createText("<a href='https://www.linkedin.com/in/meghana-ayyala-somayajula/' target='_blank'><i class='fab fa-linkedin-in white'></i> Meghana Ayyala Somayajula</a>")
   }
+
+  else if(value === "contact nishitha"){
+
+    trueValue(value);
+    
+    
+    createText("<a href='https://www.linkedin.com/in/nishithamakam1209' target='_blank'><i class='fab fa-linkedin-in white'></i> Nishitha Makam</a>")
+    
+    }
+    else if(value === "contact vaishnavi vangaveeti"){
+    
+    trueValue(value);
+    
+    
+    createText("<a href='https://www.linkedin.com/in/vaishnavi-vangaveti-477aa8229/' target='_blank'><i class='fab fa-linkedin-in white'></i> Vaishnavi Vangaveti</a>")
+    
+    }
+    else if(value === "contact vaishnavi jilla"){
+    
+      trueValue(value);
+      
+      
+      createText("<a href='https://www.linkedin.com/in/vaishnavijilla09' target='_blank'><i class='fab fa-linkedin-in white'></i> Vaishnavi Jilla</a>")
+      
+      }
+      else if(value === "contact rucha"){
+    
+        trueValue(value);
+        
+        
+        createText("<a href='www.linkedin.com/in/rucha-dhodapkar-2a831a1ab' target='_blank'><i class='fab fa-linkedin-in white'></i> Rucha</a>")
+        
+        }
+        else if(value === "contact nikitha"){
+    
+          trueValue(value);
+          
+          
+          createText("<a href='https://www.linkedin.com/in/nikita-reddy-047b23200' target='_blank'><i class='fab fa-linkedin-in white'></i> Nikitha</a>")
+          
+          }
+          else if(value === "contact satwika"){
+    
+            trueValue(value);
+            
+            
+            createText("<a href='https://www.linkedin.com/in/satwika-kacham-70aa4b200' target='_blank'><i class='fab fa-linkedin-in white'></i> Satwika Kacham</a>")
+            
+            }
+    
 else if(value === "join gdsc"){
     trueValue(value);
     createText("Join us at")
